@@ -10,8 +10,8 @@ body{
   line-height: 1.6;
 }
 
-#A.I{
-  background-image:url(../img/A.I.jpg);
+#Artificial{
+  background-image:url(../img/Artificial.jpg);
   background-size:cover;
   background-position: center;
   height:100vh;
@@ -23,18 +23,18 @@ body{
   padding: 0 20px;
 }
 
-#A.I h1{
+#Artificial h1{
   font-size: 65px;
   line-height: 1.2;
   color: white;
 }
 
-#A.I p{
+#Artificial p{
   font-size: 20px;
   color: white;
 }
 
-#A.I .button{
+#Artificial .button{
   font-size: 18px;
   text-decoration: none;
   color: #fff;
@@ -45,7 +45,7 @@ body{
   margin-top: 20px;
 }
 
-#A.I .button:hover{
+#Artificial .button:hover{
   background: black;
   color:white;
 }
