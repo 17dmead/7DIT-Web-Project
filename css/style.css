@@ -10,6 +10,49 @@ body{
   line-height: 1.6;
 }
 
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  top:0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: Grey;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: Grey;
+  color: white;
+}
+.topnav input[type=text] {
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  float: right;
+}
+
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+  }
+
 #Artificial{
   background-image:url(../img/Artificial.jpg);
   background-size:cover;
@@ -46,8 +89,9 @@ body{
 }
 
 #Artificial .button:hover{
-  background: black;
-  color:white;
+  background: white;
+  color:black;
+  border: white 1px solid;
 }
 
 #section-a {
@@ -55,12 +99,14 @@ body{
   background: black;
   color: #fff;
   text-align:center;
+  font-size: 25px;
 }
 
 #section-b {
   padding: 20px;
-  background:#f4f4f4;
+  background:black;
   text-align:center;
+  color:white;
 }
 
 #section-c{
@@ -69,13 +115,15 @@ body{
 
 #section-c div{
   padding: 20px;
+  height: auto;
 }
 
 #section-c .box1, #section-c .box3{
-  background: black;
-  color:#fff;
+  background: white;
+  color:black;
 }
 
 #section-c .box2{
-  background:#f9f9f9;
+  background:black;
+  color:white;
 }
