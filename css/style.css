@@ -113,7 +113,7 @@ span:hover {
   background: black;
   color: #fff;
   text-align:center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #section-b {
@@ -121,6 +121,7 @@ span:hover {
   background:black;
   text-align:center;
   color:white;
+  font-size: 35px;
 }
 
 #section-c{
@@ -137,10 +138,44 @@ span:hover {
   background: white;
   color:black;
   padding:40px;
+  text-align: center;
 }
 
 #section-c .box2{
   background:black;
   color:white;
   padding:40px;
+  text-align: center;
+}
+
+#Info {
+  background-image:url(../img/spacestuff.jpg);
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#Info h1{
+  font-size: 60px;
+  color: white;
+}
+
+#section-c .box5, #section-c .box7 {
+  background: black;
+  color:white;
+  padding:40px;
+  text-align: center;
+}
+
+#section-c .box4, #section-c .box6, #section-c .box8{
+  background: white;
+  color:black;
+  padding:40px;
+  text-align: center;
 }
