@@ -68,7 +68,7 @@ span:hover {
 }
 
 #Artificial{
-  background-image:url(../img/Artificial.jpg);
+  background-image:url(../img/spaceship.jpg);
   background-size:cover;
   background-position: center;
   height:100vh;
@@ -84,10 +84,11 @@ span:hover {
   font-size: 65px;
   line-height: 1.2;
   color: white;
+  font-family: fantasy;
 }
 
 #Artificial p{
-  font-size: 20px;
+  font-size: 17px;
   color: white;
 }
 
@@ -113,15 +114,15 @@ span:hover {
   background: black;
   color: #fff;
   text-align:center;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #section-b {
-  padding: 40px;
+  padding: 25px;
   background:black;
   text-align:center;
   color:white;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 #section-c{
@@ -138,7 +139,19 @@ span:hover {
   background: white;
   color:black;
   padding:40px;
-  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  #section-c .box1, #section-c .box3, #section-c .box2 {
+    padding:20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    display: none;
+  }
 }
 
 #section-c .box2{
@@ -162,8 +175,9 @@ span:hover {
 }
 
 #Info h1{
-  font-size: 60px;
+  font-size: 70px;
   color: white;
+  font-family: fantasy;
 }
 
 #section-c .box5, #section-c .box7 {
@@ -178,4 +192,59 @@ span:hover {
   color:black;
   padding:40px;
   text-align: center;
+}
+
+#About {
+  background-image:url(../img/purplespace.jpg);
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#About h1{
+  font-size: 70px;
+  color: white;
+  font-family: fantasy;
+}
+
+#section-z{
+  padding:25px;
+  background-color:#D3D3D3;
+  text-align: center;
+  font-size: 25px;
+}
+
+#section-y{
+  padding:25px;
+  background-color:#D3D3D3;
+  text-align: center;
+  font-size: 20px;
+}
+
+#section-f{
+  display:flex;
+}
+
+#section-f div{
+  padding: 40px;
+}
+
+#section-f .box11{
+  background: black;
+  color:white;
+  padding:40px;
+  font-size: 20px
+}
+
+#section-f .box10{
+  background:white;
+  color: black;
+  padding: 40px;
+  font-size: 20px;
 }
