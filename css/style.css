@@ -10,8 +10,14 @@ body{
   line-height: 1.6;
 }
 
+.overlay-content h1 {
+  font-size: 70px;
+  color:white;
+  font-family: fantasy;
+}
+
 span {
-  font-size: 40px;
+  font-size: 60px;
   padding-left: 10px;
   position: absolute;
   top: 25px;
@@ -38,7 +44,6 @@ span:hover {
   transition: 1s;
 }
 
-
 .overlay-content {
   position: relative;
   top: 25%;
@@ -50,7 +55,7 @@ span:hover {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 30px;
   color: gray;
   display: block;
   transition: 0.3s;
@@ -60,12 +65,13 @@ span:hover {
   color: #f1f1f1;
 }
 
-.overlay .closebtn {
+.overlay .closebtn{
   position: absolute;
   top: 0px;
   right: 50px;
   font-size: 60px;
 }
+
 
 #Artificial{
   background-image:url(../img/spaceship.jpg);
@@ -107,6 +113,7 @@ span:hover {
   background: white;
   color:black;
   border: white 1px solid;
+  transition: 1s;
 }
 
 #section-a {
@@ -140,6 +147,12 @@ span:hover {
   color:black;
   padding:40px;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .openNav{
+    font-size: 100px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
