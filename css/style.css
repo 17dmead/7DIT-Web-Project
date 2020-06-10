@@ -143,7 +143,7 @@ span:hover {
 }
 
 @media only screen and (max-width: 480px) {
-  #section-c .box1, #section-c .box3, #section-c .box2 {
+  #section-c.box1, #section-c .box3, #section-c .box2 {
     padding:20px;
     text-align: center;
     font-size: 17px;
@@ -271,8 +271,16 @@ footer p{
 }
 
  #section-c, #section-b, #section-a{
-  -moz-box-shadow:    inset 0 0 15px #000000;
-  -webkit-box-shadow: inset 0 0 15px #000000;
-  box-shadow:         inset 0 0 15px #000000;
-  padding:10px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  padding:15px;
+}
+
+
+#section-p{
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  padding:20px;
 }
