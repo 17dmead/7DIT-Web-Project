@@ -166,12 +166,14 @@ span:hover {
 @media only screen and (max-width: 480px) {
   .overlay-content h1 {
     font-size: 25px;
+    padding: 30px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   #Artificial h1, #About h1, #Info h1 {
     font-size: 25px;
+    padding:30px;
   }
 }
 
