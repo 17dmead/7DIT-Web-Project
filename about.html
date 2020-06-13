@@ -10,7 +10,7 @@
 <body>
   <div id="topnav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h1> id = "bigger"> A.I</h1>
+    <h1 id = "bigger"> A.I</h1>
     <div class="overlay-content">
       <h1> The Future of A.I. </h1>
       <a href="index.html">Home</a>
@@ -21,7 +21,7 @@
 
   <header id="About">
     <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    <h1>About</h1>
+    <h1 id = "about" >About</h1>
   </header>
   <section id="section-z">
     The website was created for anyone who has an interest in A.I (Artificial Intelligence).
@@ -42,10 +42,12 @@
   <script type="text/javascript">
   function openNav() {
     document.getElementById("topnav").style.height = "100%";
+    document.getElementById("about").innerHTML = "";
   }
 
   function closeNav() {
     document.getElementById("topnav").style.height = "0%";
+    document.getElementById("about").innerHTML = "About";
   }
   </script>
 </body>

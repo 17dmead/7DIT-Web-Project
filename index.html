@@ -22,9 +22,9 @@
 
   <header id="Artificial">
     <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    <h1>The Future of A.I</h1>
-    <p>Dive into the amazing world of A.I with my website!!</p>
-    <a href="info.html" class="button">Learn More</a>
+    <h1 id="futureofai">The Future of A.I</h1>
+    <p id="paragraph">Dive into the amazing world of A.I with my website!!</p>
+    <a href="info.html" id="learnmorebutton" class="button">Learn More</a>
   </header>
 
   <section id="section-a">
@@ -37,15 +37,15 @@
 
   <section id="section-c">
     <div class="box1">
-      In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals. Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".
+      A.I. or Artificial Intelligence is a powerful technology system that has become very popular through Alexa, Siri and Cortana. Us humans have become very reliant on this technology in our day to day live. In the future many scientist agree that A.I. will become one of the most profitable sciences of all time. This idea may not even be that far away scientist continue to research and invent every day and before we know it we will be living among A.I machines. This website I have created helps you the viewer understand what is to come in the world of A.I and also what is happening right now. If you wish to learn about A.I machines or just how Alexa and Siri fuctions this is the website for you.
       <img src="img/alexa.jpg" alt="alexa" style="width:170px;height:150px;padding:20px;">
     </div>
     <div class="box2">
-    As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect. A quip in Tesler's Theorem says "AI is whatever hasn't been done yet."For instance, optical character recognition is frequently excluded from things considered to be AI, having become a routine technology. Modern machine capabilities generally classified as AI include successfully understanding human speech, competing at the highest level in strategic game systems (such as chess and Go), autonomously operating cars, intelligent routing in content delivery networks, and military simulations.
+    In this fast changing world A.I. has become a heavily debated topic. How will you influence it?
     <p style="text-align:center;"><img src="img/okgoogle.jpg" alt="okgoogle" style="width:125px;height:125px;padding:20px;"></p>
     </div>
     <div class="box3">
-      Artificial intelligence was founded as an academic discipline in 1955, and in the years since has experienced several waves of optimism, followed by disappointment and the loss of funding (known as an "AI winter"), followed by new approaches, success and renewed funding. For most of its history, AI research has been divided into sub-fields that often fail to communicate with each other. These sub-fields are based on technical considerations, such as particular goals (e.g. "robotics" or "machine learning"), the use of particular tools ("logic" or artificial neural networks), or deep philosophical differences. Sub-fields have also been based on social factors (particular institutions or the work of particular researchers).
+      “I have always been convinced that the only way to get artificial intelligence to work is to do the computation in a way similar to the human brain. That is the goal I have been pursuing. We are making progress, though we still have lots to learn about how the brain actually works.” - Geoffrey Hinton, Famous AI Scientist. This quote by Geoffrey Hinton really sums up what A.I could become if someone finds away for it to be pushed to its fullest potential. This is something that scientist could be getting close to achieving. Although A.I so far has become a very useful tool, many people still have some skepticism about what A.I could become. Could A.I steal my job? Will A.I kill us all? These are frequent questions by many people, but so far A.I. has been a very helpful tool.
       <img src="img/siri.jpg" alt="siri" style="width:250px;height:175px;padding:20px;">
     </div>
   </section>
@@ -53,18 +53,27 @@
   <script type="text/javascript">
   function openNav() {
     document.getElementById("topnav").style.height = "100%";
+    document.getElementById("futureofai").innerHTML = "";
+    document.getElementById("paragraph").innerHTML = "";
+    document.getElementById("learnmorebutton").innerHTML = "";
+    document.getElementById("learnmorebutton").style.display = "none";
   }
 
   function closeNav() {
     document.getElementById("topnav").style.height = "0%";
+    document.getElementById("futureofai").innerHTML = "The Future of AI";
+    document.getElementById("paragraph").innerHTML = "Dive into the amazing world of A.I with my website!!";
+    document.getElementById("learnmorebutton").innerHTML = "Learn More";
+    document.getElementById("learnmorebutton").style.display = "block";
   }
   </script>
 
+  <footer>
+    <section id="section-p">
+      Contact us: <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=17dmead@wakatipu.school.nz" target="_blank">17dmead@wakatipu.school.nz</a
+    </section>
+    <p>Copyright 2020, All Rights Reserved</p>
+  </footer>
+
 </body>
-<footer>
-  <section id="section-p">
-    Contact us: <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=17dmead@wakatipu.school.nz" target="_blank">17dmead@wakatipu.school.nz</a
-  </section>
-  <p>Copyright 2020, All Rights Reserved</p>
-</footer>
 </html>

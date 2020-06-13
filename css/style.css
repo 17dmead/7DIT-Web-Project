@@ -1,4 +1,4 @@
-*{
+* {
   margin:0;
   padding: 0;
 }
@@ -149,9 +149,9 @@ span:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-  .openNav{
-    font-size: 100px;
+@media only screen and (max-width: 700px) {
+  img{
+    display: none;
   }
 }
 
@@ -163,9 +163,15 @@ span:hover {
   }
 }
 
-@media only screen and (max-width: 700px) {
-  img {
-    display: none;
+@media only screen and (max-width: 480px) {
+  .overlay-content h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #Artificial h1, #About h1, #Info h1 {
+    font-size: 25px;
   }
 }
 
@@ -174,6 +180,7 @@ span:hover {
   color:white;
   padding:40px;
   text-align: center;
+  font-size: 45px;
 }
 
 #Info {
